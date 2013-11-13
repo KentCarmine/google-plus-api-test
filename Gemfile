@@ -23,3 +23,7 @@ group :test do
 end
 
 gem 'oauth2'
+
+gem 'debugger'
+
+gem 'json'

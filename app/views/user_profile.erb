@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Welcome to <%=@user_profile["displayName"]%>'s Google+ Profile via Ruby!</h1>
+  <h4><a href="<%= @user_profile["url"] %>"><%=@user_profile["displayName"]%>'s Google+ Profile Page</a></h4><br>
+  <img src=<%= @user_profile["image"]["url"] %>><br>
+  <%=@user_profile["displayName"]%>'s Picture <br><br>
+  <a href="/logout" id="logout_link">Log Out</a>
+</div>
